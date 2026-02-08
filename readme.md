@@ -1,18 +1,18 @@
 # Basics 
 
 1. **Variable**
-`int x = 10;` 
-C creates a box named x and store the value 10. The box is stored in some address.
+    - `int x = 10;`
+    - C creates a box named x and store the value 10. The box is stored in some address.
 
 2. **The address of operator &**
-`&x` - Where does `x` live in memory.
-It returns an address and the type cast is `int*`. So, `int *p=&x`.
+    - `&x` - Where does `x` live in memory.
+    - It returns an address and the type cast is `int*`. So, `int *p=&x`.
 
 3. **What `int *p` actually means**
-It means p is a variable that can store the address of an int.
+    - It means p is a variable that can store the address of an int.
 
 4. **The dereference operator `*`**
-`*p` means go to the address stored in `p` and give me the value there.
+    - `*p` means go to the address stored in `p` and give me the value there.
 
 Example:
 ```
